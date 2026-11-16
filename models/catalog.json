@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-15T16:03:30.828Z",
+ "generated_at": "2026-11-16T10:39:10.695Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -91,9 +91,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.02,
-    "output": 0.108,
-    "cache_read": 0.007
+    "input": 0.036,
+    "output": 0.5,
+    "cache_read": 0.01
    }
   },
   {
@@ -1494,9 +1494,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0434,
-    "output": 0.3,
-    "cache_read": 0.035
+    "input": 0.06,
+    "output": 0.18,
+    "cache_read": 0.015
    }
   },
   {
@@ -1576,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0507,
-    "output": 0.2028,
-    "cache_read": 0.001014
+    "input": 0.14,
+    "output": 0.42,
+    "cache_read": 0.0042
    }
   },
   {
@@ -1593,9 +1593,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.02,
-    "output": 0.108,
-    "cache_read": 0.007
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.003
    }
   },
   {
@@ -1610,8 +1610,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.036,
-    "output": 0.318,
+    "input": 0.037,
+    "output": 0.325,
     "cache_read": 0.003
    }
   },
@@ -2492,9 +2492,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0675,
-    "output": 0.225,
-    "cache_read": 0.0375
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -3161,9 +3161,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.27,
-    "output": 0.95,
-    "cache_read": 0.03
+    "input": 0.295,
+    "output": 1.2,
+    "cache_read": 0.06
    }
   },
   {
@@ -3231,9 +3231,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -3788,9 +3788,9 @@
    "supports_tools": false,
    "supports_structured": false,
    "pricing": {
-    "input": 0.404,
-    "output": 6.061,
-    "cache_read": 0.129
+    "input": 0.7,
+    "output": 6,
+    "cache_read": 0.1
    }
   },
   {
@@ -5115,10 +5115,10 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 4.4,
-    "output": 22,
-    "cache_read": 0.44,
-    "cache_write": 5.5
+    "input": 4,
+    "output": 20,
+    "cache_read": 0.4,
+    "cache_write": 5
    }
   },
   {
@@ -5724,9 +5724,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.03,
-    "output": 0.13,
-    "cache_read": 0.03
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0375
    }
   },
   {
@@ -6379,9 +6379,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.6,
-    "output": 3.6,
-    "cache_read": 0.12
+    "input": 0.45,
+    "output": 3,
+    "cache_read": 0.22
    }
   },
   {
@@ -6397,9 +6397,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.088,
-    "output": 0.129,
-    "cache_read": 0.079
+    "input": 0.169,
+    "output": 0.249,
+    "cache_read": 0.152
    }
   },
   {
@@ -6735,6 +6735,25 @@
     "input": 0.15,
     "output": 0.47,
     "cache_read": 0.016
+   }
+  },
+  {
+   "id": "qwen/qwen4-max",
+   "name": "Qwen: Qwen4 Max",
+   "created": 1794795526,
+   "context_length": 1000000,
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 1.5,
+    "output": 4.5,
+    "cache_read": 0.075,
+    "cache_write": 1.875
    }
   },
   {
@@ -7674,9 +7693,9 @@
    "supports_tools": true,
    "supports_structured": false,
    "pricing": {
-    "input": 0.2,
-    "output": 1.1,
-    "cache_read": 0.03
+    "input": 0.13,
+    "output": 0.85,
+    "cache_read": 0.025
    }
   },
   {
@@ -7836,9 +7855,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.084,
-    "output": 3.6,
-    "cache_read": 0.079
+    "input": 0.0699,
+    "output": 1.4,
+    "cache_read": 0.0689
    }
   },
   {
