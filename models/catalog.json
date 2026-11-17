@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-16T10:51:18.078Z",
+ "generated_at": "2026-11-17T00:15:20.315Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -1593,9 +1593,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.003
+    "input": 0.036,
+    "output": 0.5,
+    "cache_read": 0.01
    }
   },
   {
@@ -1610,9 +1610,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.037,
-    "output": 0.325,
-    "cache_read": 0.003
+    "input": 0.038,
+    "output": 0.335,
+    "cache_read": 0.004
    }
   },
   {
@@ -2492,9 +2492,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 0.3,
-    "cache_read": 0.05
+    "input": 0.0765,
+    "output": 0.255,
+    "cache_read": 0.0425
    }
   },
   {
@@ -2978,8 +2978,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.3,
-    "output": 1.2,
+    "input": 0.35,
+    "output": 1.5,
     "cache_read": 0.04
    }
   },
@@ -3231,9 +3231,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -3788,9 +3788,9 @@
    "supports_tools": false,
    "supports_structured": false,
    "pricing": {
-    "input": 0.7,
-    "output": 6,
-    "cache_read": 0.1
+    "input": 0.372,
+    "output": 5.583,
+    "cache_read": 0.119
    }
   },
   {
@@ -4036,7 +4036,7 @@
    "id": "nvidia/nemotron-3.5-lightning",
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "created": 1786452751,
-   "context_length": 262144,
+   "context_length": 1048576,
    "input_modalities": [
     "text"
    ],
@@ -5724,9 +5724,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.018,
-    "output": 0.09,
-    "cache_read": 0.009
+    "input": 0.03,
+    "output": 0.13,
+    "cache_read": 0.03
    }
   },
   {
@@ -6379,9 +6379,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.45,
-    "output": 3,
-    "cache_read": 0.22
+    "input": 0.6,
+    "output": 3.6,
+    "cache_read": 0.12
    }
   },
   {
@@ -6397,9 +6397,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.17,
-    "output": 0.25,
-    "cache_read": 0.153
+    "input": 0.151,
+    "output": 0.222,
+    "cache_read": 0.136
    }
   },
   {
@@ -6750,10 +6750,10 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 1.5,
-    "output": 4.5,
-    "cache_read": 0.075,
-    "cache_write": 1.875
+    "input": 1.425,
+    "output": 4.275,
+    "cache_read": 0.07125,
+    "cache_write": 1.78125
    }
   },
   {
@@ -7128,6 +7128,23 @@
     "input": 0.417,
     "output": 1.2505,
     "cache_read": 0.021
+   }
+  },
+  {
+   "id": "tencent/hy4-flash",
+   "name": "Tencent: Hy4 flash",
+   "created": 1794838706,
+   "context_length": 1048576,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.035,
+    "output": 0.1405,
+    "cache_read": 0.0015
    }
   },
   {
@@ -7845,6 +7862,22 @@
    }
   },
   {
+   "id": "z-ai/glm-5.2:batch",
+   "name": "Z.ai: GLM 5.2 (batch)",
+   "created": 1781631930,
+   "context_length": 1048576,
+   "input_modalities": [
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.322,
+    "output": 0.989,
+    "cache_read": 0.109
+   }
+  },
+  {
    "id": "z-ai/glm-5.3",
    "name": "Z.ai: GLM 5.3",
    "created": 1787086655,
@@ -7891,9 +7924,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.05,
-    "output": 0.18,
-    "cache_read": 0.01
+    "input": 0.024,
+    "output": 0.069,
+    "cache_read": 0.012
    }
   },
   {
@@ -7943,9 +7976,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 2.8,
-    "output": 8.8,
-    "cache_read": 0.56
+    "input": 1.68,
+    "output": 5.28,
+    "cache_read": 0.336
    }
   },
   {
