@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-17T00:15:20.315Z",
+ "generated_at": "2026-11-17T13:28:00.260Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -1576,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.14,
-    "output": 0.42,
-    "cache_read": 0.0042
+    "input": 0.0507,
+    "output": 0.2028,
+    "cache_read": 0.001014
    }
   },
   {
@@ -1610,9 +1610,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.038,
-    "output": 0.335,
-    "cache_read": 0.004
+    "input": 0.036,
+    "output": 0.15,
+    "cache_read": 0.003
    }
   },
   {
@@ -2492,9 +2492,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0765,
-    "output": 0.255,
-    "cache_read": 0.0425
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -3231,9 +3231,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -3716,8 +3716,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.6,
-    "output": 3.5,
+    "input": 0.7,
+    "output": 3.75,
     "cache_read": 0.16
    }
   },
@@ -3790,7 +3790,7 @@
    "pricing": {
     "input": 0.372,
     "output": 5.583,
-    "cache_read": 0.119
+    "cache_read": 0.1
    }
   },
   {
@@ -3996,9 +3996,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.6,
-    "output": 2.4,
-    "cache_read": 0.12
+    "input": 0.5,
+    "output": 2.2,
+    "cache_read": 0.1
    }
   },
   {
@@ -5724,9 +5724,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.03,
-    "output": 0.13,
-    "cache_read": 0.03
+    "input": 0.018,
+    "output": 0.09,
+    "cache_read": 0.009
    }
   },
   {
@@ -6379,9 +6379,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.6,
-    "output": 3.6,
-    "cache_read": 0.12
+    "input": 0.45,
+    "output": 3,
+    "cache_read": 0.22
    }
   },
   {
@@ -6397,9 +6397,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.151,
-    "output": 0.222,
-    "cache_read": 0.136
+    "input": 0.17,
+    "output": 0.25,
+    "cache_read": 0.153
    }
   },
   {
@@ -7906,8 +7906,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0399,
-    "output": 0.0784,
+    "input": 0.15,
+    "output": 0.5,
     "cache_read": 0.03
    }
   },
@@ -7926,7 +7926,7 @@
    "pricing": {
     "input": 0.024,
     "output": 0.069,
-    "cache_read": 0.012
+    "cache_read": 0.01
    }
   },
   {
@@ -7992,9 +7992,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.45,
-    "output": 2,
-    "cache_read": 0.1
+    "input": 0.281,
+    "output": 1.25,
+    "cache_read": 0.062
    }
   },
   {
