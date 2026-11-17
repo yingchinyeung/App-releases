@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-17T13:28:00.260Z",
+ "generated_at": "2026-11-17T23:30:40.132Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -201,10 +201,10 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 10,
-    "output": 50,
-    "cache_read": 1,
-    "cache_write": 12.5
+    "input": 8,
+    "output": 40,
+    "cache_read": 0.4,
+    "cache_write": 10
    }
   },
   {
@@ -1576,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0507,
-    "output": 0.2028,
-    "cache_read": 0.001014
+    "input": 0.3,
+    "output": 1.2,
+    "cache_read": 0.006
    }
   },
   {
@@ -2492,9 +2492,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 0.3,
-    "cache_read": 0.05
+    "input": 0.0765,
+    "output": 0.255,
+    "cache_read": 0.0425
    }
   },
   {
@@ -3231,9 +3231,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -3403,9 +3403,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.4,
-    "output": 2,
-    "cache_read": 0.04
+    "input": 0.44,
+    "output": 2.2,
+    "cache_read": 0.044
    }
   },
   {
@@ -3455,9 +3455,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.4,
-    "output": 2,
-    "cache_read": 0.04
+    "input": 0.44,
+    "output": 2.2,
+    "cache_read": 0.044
    }
   },
   {
@@ -3552,9 +3552,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.1,
-    "output": 0.3,
-    "cache_read": 0.01
+    "input": 0.075,
+    "output": 0.2
    }
   },
   {
@@ -3718,7 +3717,7 @@
    "pricing": {
     "input": 0.7,
     "output": 3.75,
-    "cache_read": 0.16
+    "cache_read": 0.17
    }
   },
   {
@@ -5633,6 +5632,158 @@
    }
   },
   {
+   "id": "openai/gpt-6.2-astra",
+   "name": "OpenAI: GPT-6.2 Astra",
+   "created": 1794938423,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 8,
+    "output": 40,
+    "cache_read": 0.4,
+    "cache_write": 10
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra-pro",
+   "name": "OpenAI: GPT-6.2 Astra Pro",
+   "created": 1794938432,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 8,
+    "output": 40,
+    "cache_read": 0.4,
+    "cache_write": 10
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra-pro:batch",
+   "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+   "created": 1794938432,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 4,
+    "output": 20,
+    "cache_read": 0.2,
+    "cache_write": 5
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra:batch",
+   "name": "OpenAI: GPT-6.2 Astra (batch)",
+   "created": 1794938423,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 4,
+    "output": 20,
+    "cache_read": 0.2,
+    "cache_write": 5
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol",
+   "name": "OpenAI: GPT-6.2 Sol",
+   "created": 1794938371,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 2,
+    "output": 10,
+    "cache_read": 0.1,
+    "cache_write": 2.5
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol-pro",
+   "name": "OpenAI: GPT-6.2 Sol Pro",
+   "created": 1794938409,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 2,
+    "output": 10,
+    "cache_read": 0.1,
+    "cache_write": 2.5
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol-pro:batch",
+   "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+   "created": 1794938409,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 1,
+    "output": 5,
+    "cache_read": 0.05,
+    "cache_write": 1.25
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol:batch",
+   "name": "OpenAI: GPT-6.2 Sol (batch)",
+   "created": 1794938371,
+   "context_length": 1050000,
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 1,
+    "output": 5,
+    "cache_read": 0.05,
+    "cache_write": 1.25
+   }
+  },
+  {
    "id": "openai/gpt-audio",
    "name": "OpenAI: GPT Audio",
    "created": 1768862569,
@@ -6397,9 +6548,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.17,
-    "output": 0.25,
-    "cache_read": 0.153
+    "input": 0.045,
+    "output": 0.066,
+    "cache_read": 0.04
    }
   },
   {
@@ -7092,9 +7243,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.132,
-    "output": 0.528,
-    "cache_read": 0.033
+    "input": 0.0825,
+    "output": 0.33,
+    "cache_read": 0.020625
    }
   },
   {
@@ -7158,9 +7309,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.834,
-    "output": 2.501,
-    "cache_read": 0.042
+    "input": 0.7506,
+    "output": 2.2509,
+    "cache_read": 0.0378
    }
   },
   {
