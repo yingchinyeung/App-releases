@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-17T23:30:40.132Z",
+ "generated_at": "2026-11-18T13:04:00.159Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -1416,9 +1416,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.5,
-    "output": 2.15,
-    "cache_read": 0.35
+    "input": 0.571,
+    "output": 2.286
    }
   },
   {
@@ -1576,9 +1575,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.006
+    "input": 0.0507,
+    "output": 0.2028,
+    "cache_read": 0.001014
    }
   },
   {
@@ -2459,7 +2458,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.08,
-    "output": 0.35,
+    "output": 0.45,
     "cache_read": 0.04
    }
   },
@@ -2492,9 +2491,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0765,
-    "output": 0.255,
-    "cache_read": 0.0425
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -3231,9 +3230,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -6361,7 +6360,7 @@
     "text"
    ],
    "supports_tools": true,
-   "supports_structured": false,
+   "supports_structured": true,
    "pricing": {
     "input": 0.15,
     "output": 0.6
@@ -6411,8 +6410,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 1.1
+    "input": 0.1,
+    "output": 1.1,
+    "cache_read": 0.07
    }
   },
   {
@@ -6495,8 +6495,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.26,
-    "output": 2.6
+    "input": 0.3,
+    "output": 2.4
    }
   },
   {
@@ -6548,9 +6548,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.045,
-    "output": 0.066,
-    "cache_read": 0.04
+    "input": 0.17,
+    "output": 0.25,
+    "cache_read": 0.153
    }
   },
   {
@@ -6775,9 +6775,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 1.875,
-    "cache_read": 0.0375
+    "input": 0.06,
+    "output": 2.2,
+    "cache_read": 0.059
    }
   },
   {
@@ -7243,9 +7243,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0825,
-    "output": 0.33,
-    "cache_read": 0.020625
+    "input": 0.132,
+    "output": 0.528,
+    "cache_read": 0.033
    }
   },
   {
@@ -7309,9 +7309,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.7506,
-    "output": 2.2509,
-    "cache_read": 0.0378
+    "input": 0.834,
+    "output": 2.501,
+    "cache_read": 0.042
    }
   },
   {
@@ -7765,16 +7765,16 @@
    "id": "xiaomi/mimo-v2.5-pro",
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "created": 1776874273,
-   "context_length": 1024000,
+   "context_length": 262144,
    "input_modalities": [
     "text"
    ],
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.435,
-    "output": 0.87,
-    "cache_read": 0.0036
+    "input": 0.48,
+    "output": 1.8,
+    "cache_read": 0.096
    }
   },
   {
@@ -7914,7 +7914,7 @@
    "pricing": {
     "input": 0.3,
     "output": 0.9,
-    "cache_read": 0.055
+    "cache_read": 0.05
    }
   },
   {
