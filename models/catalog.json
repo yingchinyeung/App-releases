@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-18T22:56:57.559Z",
+ "generated_at": "2026-11-19T13:09:13.935Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -123,7 +123,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0456,
+    "input": 0.047,
     "output": 0.3,
     "cache_read": 0.035
    }
@@ -1493,9 +1493,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.06,
-    "output": 0.18,
-    "cache_read": 0.015
+    "input": 0.047,
+    "output": 0.3,
+    "cache_read": 0.035
    }
   },
   {
@@ -2500,8 +2500,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.08,
-    "output": 0.45,
-    "cache_read": 0.04
+    "output": 0.16
    }
   },
   {
@@ -2533,9 +2532,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0765,
-    "output": 0.255,
-    "cache_read": 0.0425
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -3272,9 +3271,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -3756,7 +3755,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.6,
+    "input": 0.66,
     "output": 3.5,
     "cache_read": 0.16
    }
@@ -3810,9 +3809,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.2403,
-    "output": 8.4023,
-    "cache_read": 0.2
+    "input": 0.253,
+    "output": 8.8,
+    "cache_read": 0.18
    }
   },
   {
@@ -6537,8 +6536,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.3,
-    "output": 2.4
+    "input": 0.195,
+    "output": 1.56
    }
   },
   {
@@ -6591,8 +6590,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.17,
-    "output": 0.25,
-    "cache_read": 0.153
+    "output": 0.25
    }
   },
   {
@@ -6975,9 +6973,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.3,
+    "input": 0.25,
     "output": 1,
-    "cache_read": 0.04
+    "cache_read": 0.05
    }
   },
   {
@@ -7285,9 +7283,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0825,
-    "output": 0.33,
-    "cache_read": 0.020625
+    "input": 0.132,
+    "output": 0.528,
+    "cache_read": 0.033
    }
   },
   {
@@ -7351,9 +7349,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.7506,
-    "output": 2.2509,
-    "cache_read": 0.0378
+    "input": 0.834,
+    "output": 2.501,
+    "cache_read": 0.042
    }
   },
   {
@@ -7436,22 +7434,6 @@
     "input": 0.3,
     "output": 1,
     "cache_read": 0.03
-   }
-  },
-  {
-   "id": "thinkingmachines/inkling-2-small:free",
-   "name": "Thinking Machines: Inkling 2 Small (free)",
-   "created": 1794261847,
-   "context_length": 1048576,
-   "input_modalities": [
-    "text",
-    "image"
-   ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0,
-    "output": 0
    }
   },
   {
@@ -8033,9 +8015,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 1.4,
-    "output": 4.4,
-    "cache_read": 0.26
+    "input": 1.19,
+    "output": 3.74,
+    "cache_read": 0.6
    }
   },
   {
