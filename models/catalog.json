@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-19T23:04:04.522Z",
+ "generated_at": "2026-11-20T12:55:13.661Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -107,9 +107,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.1211,
+    "input": 0.2565,
     "output": 8,
-    "cache_read": 0.12
+    "cache_read": 0.26
    }
   },
   {
@@ -123,7 +123,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0456,
+    "input": 0.047,
     "output": 0.3,
     "cache_read": 0.035
    }
@@ -1344,21 +1344,6 @@
    }
   },
   {
-   "id": "cohere/north-mini-code:free",
-   "name": "Cohere: North Mini Code (free)",
-   "created": 1781723748,
-   "context_length": 256000,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0,
-    "output": 0
-   }
-  },
-  {
    "id": "deepseek/deepseek-chat",
    "name": "DeepSeek: DeepSeek V3",
    "created": 1735241320,
@@ -1493,7 +1478,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0456,
+    "input": 0.047,
     "output": 0.3,
     "cache_read": 0.035
    }
@@ -1558,9 +1543,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.22,
-    "output": 9.5,
-    "cache_read": 0.17
+    "input": 1.32,
+    "output": 3.96,
+    "cache_read": 0.044
    }
   },
   {
@@ -1575,9 +1560,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0507,
-    "output": 0.2028,
-    "cache_read": 0.001014
+    "input": 0.3,
+    "output": 1.2,
+    "cache_read": 0.006
    }
   },
   {
@@ -1609,9 +1594,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.036,
-    "output": 0.15,
-    "cache_read": 0.003
+    "input": 0.035,
+    "output": 0.149,
+    "cache_read": 0.0029
    }
   },
   {
@@ -1626,9 +1611,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.112,
-    "output": 0.336,
-    "cache_read": 0.00336
+    "input": 0.05,
+    "output": 0.15,
+    "cache_read": 0.004
    }
   },
   {
@@ -2532,9 +2517,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0765,
-    "output": 0.255,
-    "cache_read": 0.0425
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -2712,9 +2697,9 @@
    "supports_tools": true,
    "supports_structured": false,
    "pricing": {
-    "input": 0.045,
-    "output": 0.135,
-    "cache_read": 0.009
+    "input": 0.06,
+    "output": 0.18,
+    "cache_read": 0.012
    }
   },
   {
@@ -2891,21 +2876,6 @@
    }
   },
   {
-   "id": "meta-llama/llama-3.2-1b-instruct",
-   "name": "Meta: Llama 3.2 1B Instruct",
-   "created": 1727222400,
-   "context_length": 60000,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": false,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0.027,
-    "output": 0.201
-   }
-  },
-  {
    "id": "meta-llama/llama-3.2-3b-instruct",
    "name": "Meta: Llama 3.2 3B Instruct",
    "created": 1727222400,
@@ -2916,8 +2886,8 @@
    "supports_tools": false,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0509,
-    "output": 0.335
+    "input": 0.05,
+    "output": 0.33
    }
   },
   {
@@ -3271,9 +3241,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -3614,6 +3584,22 @@
    }
   },
   {
+   "id": "mistralai/pixtral-large-2502",
+   "name": "Mistral: Pixtral Large 2502",
+   "created": 1795135865,
+   "context_length": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": false,
+   "supports_structured": false,
+   "pricing": {
+    "input": 2,
+    "output": 6
+   }
+  },
+  {
    "id": "mistralai/voxtral-small-24b-2507",
    "name": "Mistral: Voxtral Small 24B 2507",
    "created": 1761835144,
@@ -3755,9 +3741,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.65,
-    "output": 3.5,
-    "cache_read": 0.16
+    "input": 0.6,
+    "output": 3,
+    "cache_read": 0.12
    }
   },
   {
@@ -3824,8 +3810,8 @@
     "image",
     "video"
    ],
-   "supports_tools": false,
-   "supports_structured": false,
+   "supports_tools": true,
+   "supports_structured": true,
    "pricing": {
     "input": 0.372,
     "output": 5.583,
@@ -5884,9 +5870,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.075
+    "input": 0.09,
+    "output": 0.36
    }
   },
   {
@@ -6051,9 +6036,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.06,
+    "input": 0.07,
     "output": 0.5,
-    "cache_read": 0.003
+    "cache_read": 0.006
    }
   },
   {
@@ -6536,8 +6521,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.195,
-    "output": 1.56
+    "input": 0.26,
+    "output": 2.6
    }
   },
   {
@@ -6816,7 +6801,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.06,
-    "output": 2.2,
+    "output": 1.96,
     "cache_read": 0.059
    }
   },
@@ -7283,9 +7268,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0825,
-    "output": 0.33,
-    "cache_read": 0.020625
+    "input": 0.132,
+    "output": 0.528,
+    "cache_read": 0.033
    }
   },
   {
@@ -7349,9 +7334,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.7506,
-    "output": 2.2509,
-    "cache_read": 0.0378
+    "input": 0.834,
+    "output": 2.501,
+    "cache_read": 0.042
    }
   },
   {
@@ -7588,7 +7573,7 @@
   },
   {
    "id": "x-ai/grok-4.20",
-   "name": "SpaceXAI: Grok 4.20",
+   "name": "SpaceXSI: Grok 4.20",
    "created": 1774979019,
    "context_length": 2000000,
    "input_modalities": [
@@ -7606,7 +7591,7 @@
   },
   {
    "id": "x-ai/grok-4.20-multi-agent",
-   "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+   "name": "SpaceXSI: Grok 4.20 Multi-Agent",
    "created": 1774979158,
    "context_length": 2000000,
    "input_modalities": [
@@ -7624,7 +7609,7 @@
   },
   {
    "id": "x-ai/grok-4.3",
-   "name": "SpaceXAI: Grok 4.3",
+   "name": "SpaceXSI: Grok 4.3",
    "created": 1777591821,
    "context_length": 1000000,
    "input_modalities": [
@@ -7642,7 +7627,7 @@
   },
   {
    "id": "x-ai/grok-4.3:batch",
-   "name": "SpaceXAI: Grok 4.3 (batch)",
+   "name": "SpaceXSI: Grok 4.3 (batch)",
    "created": 1777591821,
    "context_length": 1000000,
    "input_modalities": [
@@ -7660,7 +7645,7 @@
   },
   {
    "id": "x-ai/grok-4.5",
-   "name": "SpaceXAI: Grok 4.5",
+   "name": "SpaceXSI: Grok 4.5",
    "created": 1783523154,
    "context_length": 500000,
    "input_modalities": [
@@ -7678,7 +7663,7 @@
   },
   {
    "id": "x-ai/grok-4.6",
-   "name": "SpaceXAI: Grok 4.6",
+   "name": "SpaceXSI: Grok 4.6",
    "created": 1786548957,
    "context_length": 500000,
    "input_modalities": [
@@ -7696,7 +7681,7 @@
   },
   {
    "id": "x-ai/grok-4.6:batch",
-   "name": "SpaceXAI: Grok 4.6 (batch)",
+   "name": "SpaceXSI: Grok 4.6 (batch)",
    "created": 1786548957,
    "context_length": 500000,
    "input_modalities": [
@@ -7714,7 +7699,7 @@
   },
   {
    "id": "x-ai/grok-4.7",
-   "name": "SpaceXAI: Grok 4.7",
+   "name": "SpaceXSI: Grok 4.7",
    "created": 1790007541,
    "context_length": 500000,
    "input_modalities": [
@@ -7732,7 +7717,7 @@
   },
   {
    "id": "x-ai/grok-4.7:batch",
-   "name": "SpaceXAI: Grok 4.7 (batch)",
+   "name": "SpaceXSI: Grok 4.7 (batch)",
    "created": 1790007541,
    "context_length": 500000,
    "input_modalities": [
@@ -7746,24 +7731,6 @@
     "input": 1.6,
     "output": 4.8,
     "cache_read": 0.4
-   }
-  },
-  {
-   "id": "x-ai/grok-build-0.1",
-   "name": "SpaceXAI: Grok Build 0.1",
-   "created": 1779298123,
-   "context_length": 256000,
-   "input_modalities": [
-    "text",
-    "image",
-    "file"
-   ],
-   "supports_tools": true,
-   "supports_structured": true,
-   "pricing": {
-    "input": 1,
-    "output": 2,
-    "cache_read": 0.2
    }
   },
   {
@@ -8081,8 +8048,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.5,
+    "input": 0.0399,
+    "output": 0.0784,
     "cache_read": 0.03
    }
   },
@@ -8099,9 +8066,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.024,
-    "output": 0.069,
-    "cache_read": 0.01
+    "input": 0.023,
+    "output": 0.068,
+    "cache_read": 0.009
    }
   },
   {
@@ -8167,9 +8134,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.281,
-    "output": 1.25,
-    "cache_read": 0.062
+    "input": 0.28,
+    "output": 1.249,
+    "cache_read": 0.061
    }
   },
   {
