@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-20T12:55:13.661Z",
+ "generated_at": "2026-11-20T22:40:41.722Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -107,9 +107,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.2565,
+    "input": 0.0999,
     "output": 8,
-    "cache_read": 0.26
+    "cache_read": 0.0999
    }
   },
   {
@@ -123,9 +123,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.047,
-    "output": 0.3,
-    "cache_read": 0.035
+    "input": 0.044,
+    "output": 0.132,
+    "cache_read": 0.0014
    }
   },
   {
@@ -1369,9 +1369,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.29,
-    "output": 1.14,
-    "cache_read": 0.11
+    "input": 0.25,
+    "output": 1
    }
   },
   {
@@ -1478,7 +1477,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.047,
+    "input": 0.0443,
     "output": 0.3,
     "cache_read": 0.035
    }
@@ -1511,9 +1510,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.44,
-    "output": 1.32,
-    "cache_read": 0.014
+    "input": 0.2156,
+    "output": 0.6468,
+    "cache_read": 0.00686
    }
   },
   {
@@ -1577,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.003
+    "input": 0.036,
+    "output": 0.5,
+    "cache_read": 0.01
    }
   },
   {
@@ -2485,7 +2484,8 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.08,
-    "output": 0.16
+    "output": 0.45,
+    "cache_read": 0.04
    }
   },
   {
@@ -2517,9 +2517,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 0.3,
-    "cache_read": 0.05
+    "input": 0.0675,
+    "output": 0.225,
+    "cache_read": 0.0375
    }
   },
   {
@@ -3185,11 +3185,10 @@
     "text"
    ],
    "supports_tools": true,
-   "supports_structured": true,
+   "supports_structured": false,
    "pricing": {
-    "input": 0.21,
-    "output": 0.84,
-    "cache_read": 0.042
+    "input": 0.6,
+    "output": 1.8
    }
   },
   {
@@ -3241,9 +3240,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -5900,9 +5899,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.018,
-    "output": 0.09,
-    "cache_read": 0.009
+    "input": 0.017,
+    "output": 0.085,
+    "cache_read": 0.0085
    }
   },
   {
@@ -6521,8 +6520,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.26,
-    "output": 2.6
+    "input": 0.195,
+    "output": 1.56
    }
   },
   {
@@ -7268,25 +7267,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.132,
-    "output": 0.528,
-    "cache_read": 0.033
-   }
-  },
-  {
-   "id": "tencent/hy3-preview",
-   "name": "Tencent: Hy3 preview",
-   "created": 1776878150,
-   "context_length": 262144,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0.18,
-    "output": 0.6,
-    "cache_read": 0.06
+    "input": 0.0825,
+    "output": 0.33,
+    "cache_read": 0.020625
    }
   },
   {
@@ -7334,9 +7317,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.834,
-    "output": 2.501,
-    "cache_read": 0.042
+    "input": 0.7506,
+    "output": 2.2509,
+    "cache_read": 0.0378
    }
   },
   {
@@ -7772,7 +7755,7 @@
    "id": "xiaomi/mimo-v2.6-flash",
    "name": "Xiaomi: MiMo-V2.6-Flash",
    "created": 1790021264,
-   "context_length": 1050000,
+   "context_length": 1048576,
    "input_modalities": [
     "text",
     "image",
@@ -7791,7 +7774,7 @@
    "id": "xiaomi/mimo-v2.6-pro",
    "name": "Xiaomi: MiMo-V2.6-Pro",
    "created": 1790021259,
-   "context_length": 1050000,
+   "context_length": 1048576,
    "input_modalities": [
     "text",
     "image",
