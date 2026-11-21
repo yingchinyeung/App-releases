@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-20T22:40:41.722Z",
+ "generated_at": "2026-11-21T12:40:22.573Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -1559,9 +1559,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.006
+    "input": 0.0498,
+    "output": 0.1992,
+    "cache_read": 0.000996
    }
   },
   {
@@ -1576,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.036,
-    "output": 0.5,
-    "cache_read": 0.01
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.003
    }
   },
   {
@@ -1613,22 +1613,6 @@
     "input": 0.05,
     "output": 0.15,
     "cache_read": 0.004
-   }
-  },
-  {
-   "id": "dots-studio/dots-3-note-preview:free",
-   "name": "Dots Studio: Dots3-Note Preview (free)",
-   "created": 1786680361,
-   "context_length": 512000,
-   "input_modalities": [
-    "text",
-    "image"
-   ],
-   "supports_tools": true,
-   "supports_structured": true,
-   "pricing": {
-    "input": 0,
-    "output": 0
    }
   },
   {
@@ -2830,22 +2814,6 @@
    }
   },
   {
-   "id": "meituan/longcat-2.0",
-   "name": "Meituan: LongCat 2.0",
-   "created": 1784554658,
-   "context_length": 1048756,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.006
-   }
-  },
-  {
    "id": "meta-llama/llama-3.1-70b-instruct",
    "name": "Meta: Llama 3.1 70B Instruct",
    "created": 1721692800,
@@ -3171,9 +3139,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.295,
-    "output": 1.2,
-    "cache_read": 0.06
+    "input": 0.27,
+    "output": 0.95,
+    "cache_read": 0.03
    }
   },
   {
@@ -3240,9 +3208,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -4101,7 +4069,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.15,
-    "output": 0.5,
+    "output": 0.47,
     "cache_read": 0.02
    }
   },
@@ -6387,8 +6355,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6
+    "input": 0.07,
+    "output": 0.28
    }
   },
   {
@@ -6932,6 +6900,23 @@
    }
   },
   {
+   "id": "radixark/daisyrose-27b",
+   "name": "RadixArk: DaisyRose 27B",
+   "created": 1795222188,
+   "context_length": 262144,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.15,
+    "output": 1.875,
+    "cache_read": 0.0375
+   }
+  },
+  {
    "id": "recursive/flint-v1.0:free",
    "name": "Recursive: Flint (free)",
    "created": 1792622765,
@@ -7267,9 +7252,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0825,
-    "output": 0.33,
-    "cache_read": 0.020625
+    "input": 0.132,
+    "output": 0.528,
+    "cache_read": 0.033
    }
   },
   {
@@ -7317,9 +7302,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.7506,
-    "output": 2.2509,
-    "cache_read": 0.0378
+    "input": 0.834,
+    "output": 2.501,
+    "cache_read": 0.042
    }
   },
   {
@@ -7385,6 +7370,23 @@
     "input": 1,
     "output": 4.05,
     "cache_read": 0.17
+   }
+  },
+  {
+   "id": "thinkingmachines/inkling-2-mini",
+   "name": "Thinking Machines: Inkling 2 Mini",
+   "created": 1795227585,
+   "context_length": 1048576,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.1,
+    "output": 0.4,
+    "cache_read": 0.02
    }
   },
   {
@@ -7888,7 +7890,7 @@
    "pricing": {
     "input": 0.3,
     "output": 0.9,
-    "cache_read": 0.05
+    "cache_read": 0.055
    }
   },
   {
@@ -7965,9 +7967,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 1.19,
-    "output": 3.74,
-    "cache_read": 0.6
+    "input": 1.4,
+    "output": 4.4,
+    "cache_read": 0.26
    }
   },
   {
