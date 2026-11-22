@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-22T12:36:52.903Z",
+ "generated_at": "2026-11-22T21:46:39.420Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -330,8 +330,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0466,
-    "output": 0.0729,
+    "input": 0.0399,
+    "output": 0.0784,
     "cache_read": 0.03
    }
   },
@@ -3210,9 +3210,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -5869,9 +5869,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0375
+    "input": 0.03,
+    "output": 0.13,
+    "cache_read": 0.03
    }
   },
   {
@@ -7304,9 +7304,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.834,
-    "output": 2.501,
-    "cache_read": 0.042
+    "input": 0.7506,
+    "output": 2.2509,
+    "cache_read": 0.0378
    }
   },
   {
@@ -8035,8 +8035,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.5,
+    "input": 0.0399,
+    "output": 0.0784,
     "cache_read": 0.03
    }
   },
