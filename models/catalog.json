@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-23T02:46:06.377Z",
+ "generated_at": "2026-11-23T14:40:18.472Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -107,9 +107,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.1188,
+    "input": 0.0999,
     "output": 5,
-    "cache_read": 0.12
+    "cache_read": 0.0999
    }
   },
   {
@@ -123,9 +123,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.044,
-    "output": 0.132,
-    "cache_read": 0.0014
+    "input": 0.0434,
+    "output": 0.3,
+    "cache_read": 0.035
    }
   },
   {
@@ -331,7 +331,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.0399,
-    "output": 0.0784,
+    "output": 0.074,
     "cache_read": 0.03
    }
   },
@@ -1477,7 +1477,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0443,
+    "input": 0.0434,
     "output": 0.3,
     "cache_read": 0.035
    }
@@ -1576,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.3,
-    "output": 1.2,
-    "cache_read": 0.006
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.003
    }
   },
   {
@@ -1613,6 +1613,22 @@
     "input": 0.05,
     "output": 0.15,
     "cache_read": 0.004
+   }
+  },
+  {
+   "id": "dots-studio/dots-3-note-preview:free",
+   "name": "Dots Studio: Dots3-Note Preview (free)",
+   "created": 1786680361,
+   "context_length": 512000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0,
+    "output": 0
    }
   },
   {
@@ -2501,9 +2517,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0675,
-    "output": 0.225,
-    "cache_read": 0.0375
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -2675,12 +2691,12 @@
    "id": "inclusionai/ling-3.1-flash",
    "name": "inclusionAI: Ling 3.1 Flash",
    "created": 1790950024,
-   "context_length": 1000000,
+   "context_length": 1048576,
    "input_modalities": [
     "text"
    ],
    "supports_tools": true,
-   "supports_structured": false,
+   "supports_structured": true,
    "pricing": {
     "input": 0.06,
     "output": 0.18,
@@ -7969,9 +7985,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 1.19,
-    "output": 3.74,
-    "cache_read": 0.6
+    "input": 1.4,
+    "output": 4.4,
+    "cache_read": 0.26
    }
   },
   {
@@ -8036,7 +8052,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.0399,
-    "output": 0.0784,
+    "output": 0.074,
     "cache_read": 0.03
    }
   },
