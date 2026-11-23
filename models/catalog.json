@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-22T21:46:39.420Z",
+ "generated_at": "2026-11-23T02:46:06.377Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -107,9 +107,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0999,
-    "output": 8,
-    "cache_read": 0.0999
+    "input": 0.1188,
+    "output": 5,
+    "cache_read": 0.12
    }
   },
   {
@@ -1576,9 +1576,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.003
+    "input": 0.3,
+    "output": 1.2,
+    "cache_read": 0.006
    }
   },
   {
@@ -2468,8 +2468,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.08,
-    "output": 0.45,
-    "cache_read": 0.04
+    "output": 0.16
    }
   },
   {
@@ -3210,9 +3209,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -5839,8 +5838,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 0.36
+    "input": 0.05,
+    "output": 0.25,
+    "cache_read": 0.05
    }
   },
   {
@@ -6629,8 +6629,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.1,
-    "output": 0.9,
+    "input": 0.05,
+    "output": 0.7,
     "cache_read": 0.025
    }
   },
@@ -7304,9 +7304,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.7506,
-    "output": 2.2509,
-    "cache_read": 0.0378
+    "input": 0.834,
+    "output": 2.501,
+    "cache_read": 0.042
    }
   },
   {
@@ -7969,9 +7969,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 1.4,
-    "output": 4.4,
-    "cache_read": 0.26
+    "input": 1.19,
+    "output": 3.74,
+    "cache_read": 0.6
    }
   },
   {
