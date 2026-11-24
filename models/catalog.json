@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-24T02:54:34.127Z",
+ "generated_at": "2026-11-24T14:53:03.023Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -123,9 +123,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.044,
-    "output": 0.132,
-    "cache_read": 0.0014
+    "input": 0.04532,
+    "output": 0.13596,
+    "cache_read": 0.001442
    }
   },
   {
@@ -1477,9 +1477,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.055,
-    "output": 0.375,
-    "cache_read": 0.044
+    "input": 0.0456,
+    "output": 0.3,
+    "cache_read": 0.035
    }
   },
   {
@@ -1559,9 +1559,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0498,
-    "output": 0.1992,
-    "cache_read": 0.000996
+    "input": 0.0507,
+    "output": 0.2028,
+    "cache_read": 0.001014
    }
   },
   {
@@ -2517,9 +2517,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0765,
-    "output": 0.255,
-    "cache_read": 0.0425
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -2698,9 +2698,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.06,
-    "output": 0.18,
-    "cache_read": 0.012
+    "input": 0.075,
+    "output": 0.225,
+    "cache_read": 0.015
    }
   },
   {
@@ -3632,52 +3632,6 @@
    "pricing": {
     "input": 0.3,
     "output": 2.5
-   }
-  },
-  {
-   "id": "moonshotai/kimi-k2",
-   "name": "MoonshotAI: Kimi K2 0711",
-   "created": 1752263252,
-   "context_length": 131072,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0.57,
-    "output": 2.3
-   }
-  },
-  {
-   "id": "moonshotai/kimi-k2-0905",
-   "name": "MoonshotAI: Kimi K2 0905",
-   "created": 1757021147,
-   "context_length": 262144,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": true,
-   "supports_structured": true,
-   "pricing": {
-    "input": 0.6,
-    "output": 2.5
-   }
-  },
-  {
-   "id": "moonshotai/kimi-k2-thinking",
-   "name": "MoonshotAI: Kimi K2 Thinking",
-   "created": 1762440622,
-   "context_length": 262144,
-   "input_modalities": [
-    "text"
-   ],
-   "supports_tools": true,
-   "supports_structured": true,
-   "pricing": {
-    "input": 0.6,
-    "output": 2.5,
-    "cache_read": 0.15
    }
   },
   {
@@ -7183,7 +7137,7 @@
    "id": "stepfun/step-3.7-flash",
    "name": "StepFun: Step 3.7 Flash",
    "created": 1779985069,
-   "context_length": 262144,
+   "context_length": 256000,
    "input_modalities": [
     "text",
     "image",
@@ -7271,9 +7225,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.14,
-    "output": 0.58,
-    "cache_read": 0.035
+    "input": 0.132,
+    "output": 0.528,
+    "cache_read": 0.033
    }
   },
   {
@@ -8036,9 +7990,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.12,
-    "output": 0.38,
-    "cache_read": 0.02
+    "input": 0.15,
+    "output": 0.5,
+    "cache_read": 0.03
    }
   },
   {
