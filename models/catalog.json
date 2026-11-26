@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-25T14:23:51.200Z",
+ "generated_at": "2026-11-26T00:21:26.518Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -123,9 +123,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.04532,
-    "output": 0.13596,
-    "cache_read": 0.001442
+    "input": 0.047,
+    "output": 0.3,
+    "cache_read": 0.035
    }
   },
   {
@@ -280,23 +280,6 @@
     "output": 5,
     "cache_read": 0.05,
     "cache_write": 1.25
-   }
-  },
-  {
-   "id": "~unbiased/pareto-latest",
-   "name": "Pareto Latest",
-   "created": 1791933050,
-   "context_length": 1048576,
-   "input_modalities": [
-    "text",
-    "image"
-   ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0.8,
-    "output": 3.2,
-    "cache_read": 0.03
    }
   },
   {
@@ -1477,9 +1460,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0456,
-    "output": 0.3,
-    "cache_read": 0.035
+    "input": 0.06,
+    "output": 0.18,
+    "cache_read": 0.015
    }
   },
   {
@@ -1526,8 +1509,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.821372,
-    "output": 1.5464,
+    "input": 0.888188,
+    "output": 1.5463,
     "cache_read": 0.2
    }
   },
@@ -1559,9 +1542,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0507,
-    "output": 0.2028,
-    "cache_read": 0.001014
+    "input": 0.14,
+    "output": 0.42,
+    "cache_read": 0.0042
    }
   },
   {
@@ -2501,9 +2484,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 0.3,
-    "cache_read": 0.05
+    "input": 0.0765,
+    "output": 0.255,
+    "cache_read": 0.0425
    }
   },
   {
@@ -3210,9 +3193,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -3230,6 +3213,23 @@
     "input": 0.3,
     "output": 0.9,
     "cache_read": 0.03
+   }
+  },
+  {
+   "id": "mistralai/codestral-2508:batch",
+   "name": "Mistral: Codestral 2508 (batch)",
+   "created": 1754079630,
+   "context_length": 256000,
+   "input_modalities": [
+    "text",
+    "file"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.15,
+    "output": 0.45,
+    "cache_read": 0.015
    }
   },
   {
@@ -3301,6 +3301,23 @@
    }
   },
   {
+   "id": "mistralai/ministral-8b-2512:batch",
+   "name": "Mistral: Ministral 3 8B 2512 (batch)",
+   "created": 1764681654,
+   "context_length": 262144,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.075,
+    "output": 0.075,
+    "cache_read": 0.0075
+   }
+  },
+  {
    "id": "mistralai/mistral-large",
    "name": "Mistral Large",
    "created": 1708905600,
@@ -3350,6 +3367,24 @@
     "input": 0.5,
     "output": 1.5,
     "cache_read": 0.05
+   }
+  },
+  {
+   "id": "mistralai/mistral-large-2512:batch",
+   "name": "Mistral: Mistral Large 3 2512 (batch)",
+   "created": 1764624472,
+   "context_length": 262144,
+   "input_modalities": [
+    "text",
+    "image",
+    "file"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cache_read": 0.025
    }
   },
   {
@@ -3465,6 +3500,23 @@
     "input": 0.15,
     "output": 0.6,
     "cache_read": 0.015
+   }
+  },
+  {
+   "id": "mistralai/mistral-small-2603:batch",
+   "name": "Mistral: Mistral Small 4 (batch)",
+   "created": 1773695685,
+   "context_length": 262144,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -6444,9 +6496,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.45,
-    "output": 3,
-    "cache_read": 0.22
+    "input": 0.5,
+    "output": 3.6,
+    "cache_read": 0.3
    }
   },
   {
@@ -6462,7 +6514,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.17,
+    "input": 0.1,
     "output": 0.25
    }
   },
@@ -6863,9 +6915,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.25,
+    "input": 0.3,
     "output": 1,
-    "cache_read": 0.05
+    "cache_read": 0.04
    }
   },
   {
@@ -7364,54 +7416,19 @@
    }
   },
   {
-   "id": "unbiased/pareto-26.10",
-   "name": "Pareto 26.10",
-   "created": 1792073620,
-   "context_length": 1048576,
+   "id": "tngtech/deepseek-r1t2-chimera",
+   "name": "TNG: DeepSeek R1T2 Chimera",
+   "created": 1751986985,
+   "context_length": 131072,
    "input_modalities": [
-    "text",
-    "image"
+    "text"
    ],
-   "supports_tools": true,
-   "supports_structured": false,
-   "pricing": {
-    "input": 0.8,
-    "output": 3.2,
-    "cache_read": 0.03
-   }
-  },
-  {
-   "id": "unbiased/pareto-26.10-preview",
-   "name": "Pareto 26.10 Preview",
-   "created": 1790863623,
-   "context_length": 1048576,
-   "input_modalities": [
-    "text",
-    "image"
-   ],
-   "supports_tools": true,
+   "supports_tools": false,
    "supports_structured": true,
    "pricing": {
-    "input": 0.8,
-    "output": 3.2,
-    "cache_read": 0.03
-   }
-  },
-  {
-   "id": "unbiased/pareto-26.9",
-   "name": "Pareto 26.9",
-   "created": 1791930537,
-   "context_length": 262144,
-   "input_modalities": [
-    "text",
-    "image"
-   ],
-   "supports_tools": true,
-   "supports_structured": true,
-   "pricing": {
-    "input": 2.5,
-    "output": 7.5,
-    "cache_read": 0.25
+    "input": 1,
+    "output": 2.625,
+    "cache_read": 0.02
    }
   },
   {
@@ -7774,8 +7791,9 @@
    "supports_tools": true,
    "supports_structured": false,
    "pricing": {
-    "input": 0.14,
-    "output": 0.86
+    "input": 0.2,
+    "output": 1.1,
+    "cache_read": 0.03
    }
   },
   {
