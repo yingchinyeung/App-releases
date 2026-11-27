@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-26T13:54:47.626Z",
+ "generated_at": "2026-11-27T00:36:02.390Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -1509,8 +1509,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.85697,
-    "output": 1.5228,
+    "input": 0.888188,
+    "output": 1.5039,
     "cache_read": 0.2
    }
   },
@@ -1525,9 +1525,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.111,
-    "output": 4.44,
-    "cache_read": 0.097
+    "input": 0.25,
+    "output": 5,
+    "cache_read": 0.125
    }
   },
   {
@@ -1542,9 +1542,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0507,
-    "output": 0.2028,
-    "cache_read": 0.001014
+    "input": 0.14,
+    "output": 0.42,
+    "cache_read": 0.0042
    }
   },
   {
@@ -2467,9 +2467,8 @@
    "supports_tools": false,
    "supports_structured": true,
    "pricing": {
-    "input": 0.04,
-    "output": 0.05,
-    "cache_read": 0.02
+    "input": 0.05,
+    "output": 0.1
    }
   },
   {
@@ -2485,9 +2484,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.09,
-    "output": 0.3,
-    "cache_read": 0.05
+    "input": 0.0765,
+    "output": 0.255,
+    "cache_read": 0.0425
    }
   },
   {
@@ -2688,6 +2687,23 @@
    }
   },
   {
+   "id": "inclusionai/lingsante-3.1-air-vl",
+   "name": "inclusionAI: LingSante 3.1 Air VL",
+   "created": 1795705284,
+   "context_length": 131072,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.06,
+    "output": 0.18,
+    "cache_read": 0.012
+   }
+  },
+  {
    "id": "inference-net/schematron-v2-small",
    "name": "Inference.net: Schematron V2 Small",
    "created": 1789176933,
@@ -2855,9 +2871,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.71,
-    "output": 0.71,
-    "cache_read": 0.71
+    "input": 0.59,
+    "output": 0.79,
+    "cache_read": 0.295
    }
   },
   {
@@ -2942,8 +2958,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.35,
-    "output": 1.5,
+    "input": 0.3,
+    "output": 1.2,
     "cache_read": 0.04
    }
   },
@@ -3194,9 +3210,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015
+    "input": 0.075,
+    "output": 0.3,
+    "cache_read": 0.0075
    }
   },
   {
@@ -3636,6 +3652,36 @@
    }
   },
   {
+   "id": "moonshotai/kimi-k2",
+   "name": "MoonshotAI: Kimi K2 0711",
+   "created": 1752263252,
+   "context_length": 131072,
+   "input_modalities": [
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": false,
+   "pricing": {
+    "input": 0.57,
+    "output": 2.3
+   }
+  },
+  {
+   "id": "moonshotai/kimi-k2-0905",
+   "name": "MoonshotAI: Kimi K2 0905",
+   "created": 1757021147,
+   "context_length": 262144,
+   "input_modalities": [
+    "text"
+   ],
+   "supports_tools": true,
+   "supports_structured": true,
+   "pricing": {
+    "input": 0.6,
+    "output": 2.5
+   }
+  },
+  {
    "id": "moonshotai/kimi-k2.5",
    "name": "MoonshotAI: Kimi K2.5",
    "created": 1769487076,
@@ -3647,9 +3693,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.5,
-    "output": 2.5,
-    "cache_read": 0.15
+    "input": 0.6,
+    "output": 3
    }
   },
   {
@@ -7818,7 +7863,7 @@
    "id": "z-ai/glm-4.6",
    "name": "Z.ai: GLM 4.6",
    "created": 1759235576,
-   "context_length": 204800,
+   "context_length": 202752,
    "input_modalities": [
     "text"
    ],
