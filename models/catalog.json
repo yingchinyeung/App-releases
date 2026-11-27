@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-27T00:36:02.390Z",
+ "generated_at": "2026-11-27T13:52:43.896Z",
  "source": "OpenRouter public model list, plus catalog/extra-models.json",
  "models": [
   {
@@ -107,9 +107,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.111,
-    "output": 4.44,
-    "cache_read": 0.097
+    "input": 0.0999,
+    "output": 5,
+    "cache_read": 0.0999
    }
   },
   {
@@ -123,9 +123,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.047,
-    "output": 0.3,
-    "cache_read": 0.035
+    "input": 0.04532,
+    "output": 0.13596,
+    "cache_read": 0.001442
    }
   },
   {
@@ -1460,7 +1460,7 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.047,
+    "input": 0.0456,
     "output": 0.3,
     "cache_read": 0.035
    }
@@ -1493,9 +1493,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.44,
-    "output": 1.32,
-    "cache_read": 0.028
+    "input": 0.2156,
+    "output": 0.6468,
+    "cache_read": 0.00686
    }
   },
   {
@@ -1509,8 +1509,8 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.888188,
-    "output": 1.5039,
+    "input": 0.855302,
+    "output": 1.5228,
     "cache_read": 0.2
    }
   },
@@ -1525,9 +1525,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.25,
+    "input": 0.0999,
     "output": 5,
-    "cache_read": 0.125
+    "cache_read": 0.0999
    }
   },
   {
@@ -1542,9 +1542,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.14,
-    "output": 0.42,
-    "cache_read": 0.0042
+    "input": 0.0507,
+    "output": 0.2028,
+    "cache_read": 0.001014
    }
   },
   {
@@ -2451,8 +2451,7 @@
    "supports_structured": true,
    "pricing": {
     "input": 0.08,
-    "output": 0.45,
-    "cache_read": 0.04
+    "output": 0.16
    }
   },
   {
@@ -2484,9 +2483,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.0765,
-    "output": 0.255,
-    "cache_read": 0.0425
+    "input": 0.09,
+    "output": 0.3,
+    "cache_read": 0.05
    }
   },
   {
@@ -2671,8 +2670,8 @@
    }
   },
   {
-   "id": "inclusionai/ling-3.2-flash:free",
-   "name": "inclusionAI: Ling 3.2 Flash (free)",
+   "id": "inclusionai/ling-3.2-flash",
+   "name": "inclusionAI: Ling 3.2 Flash",
    "created": 1794591958,
    "context_length": 1048576,
    "input_modalities": [
@@ -2682,8 +2681,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0,
-    "output": 0
+    "input": 0.3,
+    "output": 0.9,
+    "cache_read": 0.06
    }
   },
   {
@@ -3210,9 +3210,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075
+    "input": 0.15,
+    "output": 0.6,
+    "cache_read": 0.015
    }
   },
   {
@@ -6761,7 +6761,7 @@
    "id": "qwen/qwen3.8-2.4t-a95b",
    "name": "Qwen: Qwen3.8 2.4T A95B",
    "created": 1786551702,
-   "context_length": 1048576,
+   "context_length": 1000000,
    "input_modalities": [
     "text"
    ],
@@ -7403,9 +7403,9 @@
    "supports_tools": true,
    "supports_structured": true,
    "pricing": {
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.015
+    "input": 0.06,
+    "output": 0.24,
+    "cache_read": 0.012
    }
   },
   {
